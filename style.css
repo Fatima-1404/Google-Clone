@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+section header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section header ul li{
+    list-style: none;
+    margin-left: 20px;
+
+}
+section header ul li a{
+    color: #111;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+section header ul li button {
+    background: #1a73ea;
+    border: none;
+    outline: none;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+}
+section .main{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section .main .searchBox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.searchBox{
+    padding: 4px;
+}
+section .main .searchBox .search{
+    width: 100%;
+    padding: 15px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #dedede;
+    outline: none;
+    font-size: 16px;
+}
+
+section .main .searchBox .icons{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 11px 20px;
+    align-items: center;
+    justify-content: space-between;
+    pointer-events: none;
+}
+section .main .searchBox .icons .miclens{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+section .main .buttons{
+    margin-top: 20px;
+}
+
+section .main .buttons button{
+    margin: 0px 5px;
+    padding: 12px 20px;
+    color: #3c4043;
+    background: #f8f9f8 ;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+section .main .buttons button:hover{
+    border: 1px solid #dedede;
+}
+
+section .main .languages{
+    display: flex;
+    margin-top: 30px;
+
+}
+
+section .main .languages .li{
+    list-style: none;
+    margin: 0px 5px;
+    font: 13px;
+}
+
+section .main .languages li a{
+    text-decoration: none;
+    color: #1a0dab;
+}
+section .main .languages li a:hover{
+    text-decoration: underline;
+}
+
+.miclens button{
+    /* border-color: rgb(228, 228, 228);
+    border-radius: 7px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding:  8px;
+    /* padding-bottom: ; */
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 77px;
+    cursor: pointer;
+    width: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+
+
+
+
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #f2f2f2;
+}
+.all{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 15px 30px;
+            flex-wrap: wrap;
+}
+
+.panel{
+    border-bottom: 1px solid #dadce0;
+    height: 50px;
+    padding: 16px 19px;
+    font-size: 14px;
+}
+
+.bottom{
+    margin-left: 10px;
+    padding: 9px 0 3px 0;
+    font-size: 14px;
+}
+.bottom a, .right a {
+            padding: 7px;
+            text-decoration: none;
+            color: rgb(52, 51, 51);
+            font-size: 14px;
+        }
+
+.right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 25px;
+    font-size: 14px;
+}
+.bottom a:hover, .right a:hover {
+            text-decoration: none;
+            color: black;
+        }
+
+.bottom{
+    display: flex;
+    gap: 25px;
+}
